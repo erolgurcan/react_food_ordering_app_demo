@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+import { Fragment , useState} from "react";
 import classes from "./Modal.module.css";
 import ReactDOM from "react-dom";
 
