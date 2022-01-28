@@ -16,9 +16,9 @@ function App() {
 
   return (
     <Fragment>
-    {cartIsShown && <Cart /> }
+    {cartIsShown && <Cart onClose = {hideCardHandler} /> }
      
-      <Header />
+      <Header onShowCart = {showCardHandler} />
       <Meals />
     </Fragment>
   );
